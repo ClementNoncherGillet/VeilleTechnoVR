@@ -5,18 +5,13 @@ body {
 	background-color : #DCDCDC
 
 
-
-}
-
-
-
-
+	}
 
 
 
 h1 {
 
-
+font-family : Courier;
 
 	color: 8B8B8B;
 
@@ -32,8 +27,7 @@ h1 {
 
 h2 {
 
-
-
+font-family : Courier;
 	color: 8B8B8B;
 
 
@@ -144,8 +138,15 @@ element2
 	
 }
 
+element3
+{
+    
+    position: absolute;
+    margin-left: 50 px;
+	
+}
 a:hover /* Apparence au survol des liens */
 {
    text-decoration: underline;
-   color: green;
+   color: grey;
 }
