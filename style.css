@@ -149,6 +149,7 @@ a:hover /* Apparence au survol des liens */
 {
    text-decoration: underline;
    color: grey;
+<<<<<<< HEAD
 }
 
 nav 
@@ -213,4 +214,6 @@ background-color: #6B6B6B;
 nav li:hover a
 {
  color: #DCDCDC; 
+=======
+>>>>>>> e3581e3bd2937acb8e05013ed6708ab16ca02b9b
 }
