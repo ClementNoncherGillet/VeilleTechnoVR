@@ -5,18 +5,13 @@ body {
 	background-color : #DCDCDC
 
 
-
-}
-
-
-
-
+	}
 
 
 
 h1 {
 
-
+font-family : Courier;
 
 	color: 8B8B8B;
 
@@ -32,8 +27,7 @@ h1 {
 
 h2 {
 
-
-
+font-family : Courier;
 	color: 8B8B8B;
 
 
@@ -144,8 +138,79 @@ element2
 	
 }
 
+element3
+{
+    
+    position: absolute;
+    margin-left: 50 px;
+	
+}
 a:hover /* Apparence au survol des liens */
 {
    text-decoration: underline;
-   color: green;
+   color: grey;
+}
+
+nav 
+{
+position: absolute;
+width: 280px;
+height: 260px;
+background-color: #6B6B6B;
+margin-left: 1250px;
+top: 1000px;
+border: 1px solid black;
+}
+
+
+nav li
+{
+list-style-type:none;
+float:left;
+}
+nav ul
+{
+margin: 0px;
+padding: 0px;
+}
+
+
+
+nav a
+{
+display : inline-block;
+text-decoration: none;
+padding: 20px 30px;
+color: black;
+text-transform: uppercase;
+font-size: 15px;
+}
+
+.table
+{
+display:table;
+margin: 0 auto;
+}
+
+.menu-ind:hover
+{	
+border-top:5px solid #4c8;
+background-color: #6B6B6B;
+}
+
+.menu-exp:hover
+{	
+border-top:5px solid #f1dc4f;
+background-color: #6B6B6B;
+}
+
+.menu-hob:hover
+{	
+border-top:5px solid #0070bb;
+background-color: #6B6B6B;
+}
+
+nav li:hover a
+{
+ color: #DCDCDC; 
 }
