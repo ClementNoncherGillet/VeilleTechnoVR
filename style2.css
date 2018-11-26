@@ -74,7 +74,7 @@ element1
     padding: 12px;
     margin: 50px;
 	width: 800px;
-    height: 600px;
+    height: 775px;
 	border: 1px solid black;
 	background-color: #6B6B6B;
 	z-index: 1;
@@ -85,7 +85,7 @@ element2
 {
 
     position: absolute;
-    top: 950px;
+    top: 1350px;
 	
 }
 
@@ -97,17 +97,16 @@ a:hover /* Apparence au survol des liens */
 
 nav 
 {
+    top: 300px;
 
-   
     padding: 12px;
     margin: 50px;
 	width: 280px;
-    height: 280px;
+    height: 405px;
 	border: 1px solid black;
 	background-color: #6B6B6B;
 	margin-left: 1000px;
-	z-index: 1; 
-	top: 500px;
+	z-index: 1;
 }
 
 
