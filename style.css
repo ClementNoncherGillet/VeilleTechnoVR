@@ -1,93 +1,68 @@
-body {
-
-
-
-	background-color : #DCDCDC
-
-
-	}
-
-
-
 h1 {
+	  padding-top: 1% !important;
+	      color: white;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    width: 100%;
+    float: left;
+  }
 
-font-family : Courier;
-
-	color: 8B8B8B;
-
+body
+{
+	background-color: #808080 !important;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png") !important;
 }
 
-
-
-h2 {
-
-font-family : Courier;
-	color: 8B8B8B;
-
-
-
+header {
+	display : block;
 	width : 100%;
-
-
-
-	text-align : center;
-
-
-
+	background : #808080;
+	height : 110px;
+	padding : 0.5% 0;
 }
 
-
-ul {
-
-
-
-	color: 8B8B8B;
-
-
-
+header h2 {
+	padding-bottom : 2% !important;
 }
 
-
-
-
-
-
-
-a {
-	color: 8B8B8N;
+center img {
+	margin-top : -0.5%;
 }
-
-
-
-	
-
-
-
-
 
 element1
 
 {
     position: absolute;
-    top: 500px;
-    padding: 12px;
-    margin: 50px;
-	width: 800px;
-    height: 1000px;
+    margin-top: 100px;
+	margin-left: 26%;
+    padding: 50px;
+	width: 70%;
+    height: auto;
 	border: 1px solid black;
 	background-color: #6B6B6B;
-	z-index: 1;
-	margin-left: -600px;
-	
+	margin-bottom: 2%;
+}
+
+element1 p
+{
+color:#fff;
+}
+element1 h3
+{
+color:#fff;	
+}
+element2
+{
+	padding-right : 0.5%;
+    position: fixed;
+    bottom: 0px;
+	right: 0px;
 
 }
 
-element2
+element2 a
 {
-
-    position: absolute;
-    top: 1600px;
-
+	color : grey;
 }
 
 a:hover /* Apparence au survol des liens */
@@ -99,15 +74,13 @@ a:hover /* Apparence au survol des liens */
 nav 
 {
 
-    top: 300px;
-
+    margin-top: 100px;
     padding: 12px;
-    margin: 50px;
-	width: 280px;
-    height: 405px;
+	width: 15%;
+    height: auto;
 	border: 1px solid black;
 	background-color: #6B6B6B;
-	margin-left: 1000px;
+	margin-left: 100px;
 	z-index: 1;
 }
 
@@ -168,4 +141,31 @@ background-color: RGBa (000, 112,192,0.15);
 nav li:hover a
 {
  color: grey; 
+}
+
+i {
+	font-size : 50px;
+}
+
+@media screen and (min-width: 1000px) {
+  nav {
+    margin-left:100px;
+	
+  }
+  
+
+}
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+	element1{
+	margin-top:500px;
+	width:300px;
+	margin-left:70px;
+	
+	}
+		
+	nav {
+	margin-top:10px;
+	margin-left: 100px;
+	width:250px;
+} 
 }
